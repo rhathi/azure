@@ -1,0 +1,7 @@
+{
+    "annotations": [],
+    "type": "AzureKeyVault",
+    "typeProperties": {
+        "baseUrl": "https://rhathi-dev-key.vault.azure.net/"
+    }
+}

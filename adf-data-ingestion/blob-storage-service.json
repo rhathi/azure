@@ -1,0 +1,14 @@
+{
+    "annotations": [],
+    "type": "AzureBlobStorage",
+    "typeProperties": {
+        "connectionString": {
+            "type": "AzureKeyVaultSecret",
+            "store": {
+                "referenceName": "akv-service",
+                "type": "LinkedServiceReference"
+            },
+            "secretName": "blob-storage-key1"
+        }
+    }
+}

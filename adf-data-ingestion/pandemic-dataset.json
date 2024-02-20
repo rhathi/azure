@@ -1,0 +1,12 @@
+{
+    "linkedServiceName": {
+        "referenceName": "PandemicService",
+        "type": "LinkedServiceReference"
+    },
+    "annotations": [],
+    "type": "RestResource",
+    "typeProperties": {
+        "relativeUrl": "public/curated/covid-19/bing_covid-19_data/latest/bing_covid-19_data.json"
+    },
+    "schema": []
+}

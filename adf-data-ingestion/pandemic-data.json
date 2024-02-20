@@ -1,0 +1,15 @@
+{
+    "linkedServiceName": {
+        "referenceName": "blob-storage-service",
+        "type": "LinkedServiceReference"
+    },
+    "annotations": [],
+    "type": "Json",
+    "typeProperties": {
+        "location": {
+            "type": "AzureBlobStorageLocation",
+            "container": "data1"
+        }
+    },
+    "schema": {}
+}
